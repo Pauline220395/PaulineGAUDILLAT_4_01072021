@@ -100,11 +100,11 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(255, 255, 255, 1);
 }
 
 .d-bloc button:hover {
-    color: rgba(255, 255, 255, .9);
+    color:  rgba(255, 255, 255, 1);
 }
 
 .d-bloc .icon-round,
@@ -195,7 +195,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, 0.68);
 }
 
 .d-bloc .panel button:hover,
