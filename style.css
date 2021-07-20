@@ -713,6 +713,10 @@ p {
     margin: 30px auto 30px auto;
 }
 
+.a_marg {
+    padding: 5px;
+}
+
 h2 {
     font-size: 22px;
     line-height: 1.4em;
