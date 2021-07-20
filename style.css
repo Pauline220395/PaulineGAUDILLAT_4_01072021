@@ -100,11 +100,11 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, .7);
 }
 
 .d-bloc button:hover {
-    color:  rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, .9);
 }
 
 .d-bloc .icon-round,
@@ -195,7 +195,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, 0.68);
+    color: rgba(0, 0, 0, .5);
 }
 
 .d-bloc .panel button:hover,
@@ -281,10 +281,6 @@ a:hover {
 .row.row-no-gutters > [class*=" col-"] {
     padding-right: 0;
     padding-left: 0;
-}
-
-.row li {
-    line-height: 35px;
 }
 
 #bloc-1-hero h1 {
@@ -655,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #232323;
+    color: #575757!important;
 }
 
 .container {
@@ -664,11 +660,6 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
-}
-
-.rel {
-    position: relative;
-    font-size: 20px;
 }
 
 .hero-bloc-text-sub {
@@ -686,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .tight-width-whitespace {
@@ -710,19 +701,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: 30px auto 30px auto;
-}
-
-.a_marg {
-    padding: 5px;
-}
-
-.a_marg a {
-    color: rgba(255, 255, 255, .6);
-}
-
-.a_marg a:hover {
-    color: rgba(255, 255, 255, 1);
+    margin: auto auto auto auto;
 }
 
 h2 {
@@ -757,7 +736,7 @@ h4 {
 }
 
 .white {
-    color:rgba(0, 0, 0, 1)!important;
+    color: #FFFFFF!important;
 }
 
 .portfolio-thumb {
@@ -796,11 +775,11 @@ h4 {
 }
 
 .tc-white {
-    color: #FFFFFF!important;
+    color: #F3976C!important;
 }
 
 .btn-atomic-tangerine {
-    background: #BE4913;
+    background: #F3976C;
     color: #FFFFFF!important;
 }
 
