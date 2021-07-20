@@ -655,7 +655,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #232323!important;
+    color: #232323;
 }
 
 .container {
@@ -715,6 +715,14 @@ p {
 
 .a_marg {
     padding: 5px;
+}
+
+.a_marg a {
+    color: rgba(255, 255, 255, .6);
+}
+
+.a_marg a:hover {
+    color: rgba(255, 255, 255, 1);
 }
 
 h2 {
