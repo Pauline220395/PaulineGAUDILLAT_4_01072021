@@ -104,7 +104,7 @@ a:hover {
 }
 
 .d-bloc button:hover {
-    color: rgba(255, 255, 255, 1);
+    color:  rgba(255, 255, 255, 1);
 }
 
 .d-bloc .icon-round,
@@ -556,6 +556,7 @@ a[data-lightbox]:hover::before {
     top: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
+    margin-left: 130px;
 }
 
 a[data-lightbox]:hover img {
@@ -666,6 +667,12 @@ a {
     font-size: 38px;
 }
 
+.rel {
+    position: relative;
+    font-size: 20px;
+    margin: 0 15px 0 15px;
+}
+
 .hero-bloc-text-sub {
     font-size: 36px;
 }
@@ -681,7 +688,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -705,7 +712,11 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 30px auto 30px auto;
+}
+
+.a_marg {
+    padding: 5px;
 }
 
 .a_marg a {
