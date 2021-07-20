@@ -666,6 +666,11 @@ a {
     font-size: 38px;
 }
 
+.rel {
+    position: relative;
+    font-size: 20px;
+}
+
 .hero-bloc-text-sub {
     font-size: 36px;
 }
@@ -705,7 +710,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 30px auto 30px auto;
 }
 
 h2 {
@@ -779,11 +784,11 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #BE4913;
     color: #FFFFFF!important;
 }
 
