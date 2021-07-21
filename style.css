@@ -100,11 +100,11 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, .7);
 }
 
 .d-bloc button:hover {
-    color:  rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, .9);
 }
 
 .d-bloc .icon-round,
@@ -195,7 +195,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, 0.68);
+    color: rgba(0, 0, 0, .5);
 }
 
 .d-bloc .panel button:hover,
@@ -281,10 +281,6 @@ a:hover {
 .row.row-no-gutters > [class*=" col-"] {
     padding-right: 0;
     padding-left: 0;
-}
-
-.row li {
-    line-height: 35px;
 }
 
 #bloc-1-hero h1 {
@@ -556,7 +552,6 @@ a[data-lightbox]:hover::before {
     top: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
-    margin-left: 130px;
 }
 
 a[data-lightbox]:hover img {
@@ -656,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #232323;
+    color: #575757!important;
 }
 
 .container {
@@ -665,12 +660,6 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
-}
-
-.rel {
-    position: relative;
-    font-size: 20px;
-    margin: 0 15px 0 15px;
 }
 
 .hero-bloc-text-sub {
@@ -688,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .tight-width-whitespace {
@@ -712,19 +701,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: 30px auto 30px auto;
-}
-
-.a_marg {
-    padding: 5px;
-}
-
-.a_marg a {
-    color: rgba(255, 255, 255, .6);
-}
-
-.a_marg a:hover {
-    color: rgba(255, 255, 255, 1);
+    margin: auto auto auto auto;
 }
 
 h2 {
@@ -759,7 +736,7 @@ h4 {
 }
 
 .white {
-    color:rgba(0, 0, 0, 1)!important;
+    color: #FFFFFF!important;
 }
 
 .portfolio-thumb {
@@ -798,11 +775,11 @@ h4 {
 }
 
 .tc-white {
-    color: #FFFFFF!important;
+    color: #F3976C!important;
 }
 
 .btn-atomic-tangerine {
-    background: #BE4913;
+    background: #F3976C;
     color: #FFFFFF!important;
 }
 
@@ -871,13 +848,13 @@ h4 {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-pixel-ratio: 1.5) {
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -895,10 +872,10 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    /*.bloc {
+    .bloc {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
-    }*/
+    }
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -907,8 +884,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        /*padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);*/
+        padding-left: constant(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right);
     }
 }
 
@@ -917,7 +894,6 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    /*
     h1,
     h2,
     h3,
@@ -928,7 +904,7 @@ h4 {
     #disqus_thread {
         padding-left: 10px!important;
         padding-right: 10px!important;
-    }*/
+    }
     .b-parallax {
         background-attachment: scroll;
     }
