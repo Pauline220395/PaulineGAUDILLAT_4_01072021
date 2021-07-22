@@ -108,11 +108,11 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, 1); /* opacité couleur passée à 1*/
+    color: #232323; /*Couleur modifiée pour contrast ratio*/
 }
 
 .d-bloc button:hover {
-    color: rgba(255, 255, 255, 1);
+    color: #232323; /*Couleur modifiée pour contrast ratio*/
 }
 
 .d-bloc .icon-round,
@@ -486,6 +486,7 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    padding: 15px; /* Ajout padding*/
 }
 
 .icon-lg {
@@ -660,7 +661,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #232323!important; /*Couleur modifiée pour ratio*/
+    color: #232323!important; /*Couleur modifiée pour contrast ratio*/
 }
 
 .container {
@@ -710,7 +711,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 15px auto 15px auto; /*modification margin*/
 }
 
 h2 {
@@ -784,11 +785,15 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important; /*Couleur modifiée pour contrast ratio*/
+}
+
+.tc-tangerine {
+    color: #F3976C!important; /*Ligne ajoutée*/
 }
 
 .btn-atomic-tangerine {
-    background: #CC4B0F; /*Couleur modifiée pour ratio*/
+    background: #CC4B0F; /*Couleur modifiée pour contrast ratio*/
     color: #FFFFFF!important;
 }
 
